@@ -1,7 +1,39 @@
 <template>
-  <Tutorial />
-</template>
+<center>
+<body style="background-color : powderblue;">
+<div class="row">
+  <div class="col s12 m8 l4 offset-m2 offset-l4">
+    <div class="card">
+      <div class="card-action teal lighten-1 white-text">
+        <h3>Login Form</h3>
+        </div>
+          <div class="card-content">
+        <div class="form-field">
+          <label for="username">Username</label>
+          <input type="text" id="username">
+        </div><br>
 
+        <div class="form-field">
+          <label for="password">Password</label>
+          <input type="password" id="password">
+        </div><br>
+
+        <div class="form-field">
+          <input type="checkbox" id="remem">
+          <label for="remem">Rememeber me</label>
+          
+        </div><br>
+
+        <div class="form-field">
+          <button class="btn-large waves-effect waves-dark" style="width:20%;">Login</button>
+        </div><br>
+      </div>
+  </div>
+</div>
+</div>
+</body>
+</center>
+</template>
 <script>
 export default {
   name: 'IndexPage',
