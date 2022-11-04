@@ -53,8 +53,3 @@
 </section>
 </center>
 </template>
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
